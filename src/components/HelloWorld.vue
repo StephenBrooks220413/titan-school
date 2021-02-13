@@ -145,7 +145,12 @@
           </div>
           <div class="col-md-6">
             <br /><br />
-            <form>
+            <form
+              name="contact"
+              method="POST"
+              data-netlify="true"
+              honeypot="netlify"
+            >
               <!-- Name input -->
               <div class="form-outline mb-4">
                 <input type="text" id="form4Example1" class="form-control" />
