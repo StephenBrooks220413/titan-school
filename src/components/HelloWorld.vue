@@ -5,6 +5,7 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-4 hover-shadow">
+          <br /><br />
           <img src="../assets/apple.png" alt="" />
           <h4 class="text-red">
             School Nutrition Professionals 〉
@@ -16,6 +17,7 @@
           </p>
         </div>
         <div class="col-md-4 hover-shadow">
+          <br /><br />
           <img src="../assets/itpro.png" alt="" />
           <h4 class="text-blue">
             District IT Professionals 〉
@@ -28,6 +30,7 @@
           </p>
         </div>
         <div class="col-md-4 hover-shadow">
+          <br /><br />
           <img src="../assets/families.png" alt="" />
           <h4 class="text-orange">
             Families 〉
@@ -119,7 +122,7 @@
         <div class="footer-text text-start">
           <h2>
             Upcoming <br />
-            Trade Shows
+            Trade Shows <i class="fas trade-shows-icon fa-globe-americas"></i>
           </h2>
           <button class="btn">View Trade Shows</button>
         </div>
@@ -256,7 +259,7 @@ a {
 }
 .frame {
   background: url("https://www.titank12.com/application/files/6915/5450/9042/bg_section_teal_green.png")
-    no-repeat center center;
+    no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -311,5 +314,9 @@ a {
     border-radius: 7px;
     background-color: white;
   }
+}
+.trade-show-icons {
+  font-size: 2.9em !important;
+  padding-left: 30px;
 }
 </style>

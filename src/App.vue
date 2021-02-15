@@ -28,10 +28,10 @@
               <router-link class="nav-link" to="/">Home</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/about">About</router-link>
+              <router-link class="nav-link" to="/">About</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/contact">Contact</router-link>
+              <router-link class="nav-link" to="/">Contact</router-link>
             </li>
             <!-- Navbar dropdown -->
             <li class="nav-item dropdown">
@@ -48,32 +48,30 @@
               <!-- Dropdown menu -->
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <router-link class="dropdown-item" to="/curriculum"
+                  <router-link class="dropdown-item" to="/"
                     >Curriculum</router-link
                   >
                 </li>
                 <li>
-                  <router-link class="dropdown-item" to="/students"
+                  <router-link class="dropdown-item" to="/"
                     >Enroll Classes</router-link
                   >
                 </li>
                 <li>
-                  <router-link class="dropdown-item" to="/students"
+                  <router-link class="dropdown-item" to="/"
                     >Register/Login</router-link
                   >
                 </li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <router-link class="dropdown-item" to="/support"
+                  <router-link class="dropdown-item" to="/"
                     >Support</router-link
                   >
                 </li>
               </ul>
             </li>
             <li>
-              <router-link class="dropdown-item" to="/graduation"
-                >Graduation</router-link
-              >
+              <router-link class="dropdown-item" to="/">Graduation</router-link>
             </li>
           </ul>
           <!-- Left links -->
