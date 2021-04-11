@@ -3,43 +3,48 @@
     <h1>{{ msg }}</h1>
     <br /><br />
     <div class="container">
+      <h1 class="display-4">Clear Solutions & Designs</h1>
+      <h3>Welcome to Your Web Solution Provider</h3>
       <div class="row text-center">
         <div class="col-md-4 hover-shadow">
           <br /><br />
-          <img src="../assets/apple.png" alt="" />
+          <i class="fab icon text-danger fa-vuejs"></i>
           <h4 class="text-red">
-            School Nutrition Professionals 〉
+            JavaScript Framework Professionals 〉
           </h4>
           <p class="content">
-            TITAN was founded in response to listening to the specific needs of
-            School Nutrition Professionals. Learn more about how TITAN can make
-            your program more successful and your life easier.
+            CWD uses JavaScript frameworks like Vue.js, and React.js with
+            Material Design with Bootstrap5. A responsive layout, keeping your
+            website mobile friendly and for all devices. Depending on your size,
+            it may required a scale up from the regular JavaScript framework.
           </p>
         </div>
         <div class="col-md-4 hover-shadow">
           <br /><br />
-          <img src="../assets/itpro.png" alt="" />
+          <img src="../assets/itpro.png" class="icon" alt="" />
           <h4 class="text-blue">
-            District IT Professionals 〉
+            IT Professional in Oklahoma 〉
           </h4>
           <p class="content">
-            TITAN’s founders are school IT veterans and we respect that even the
-            best industry solutions need to function seamlessly with legacy
-            systems. Learn more about our 100% cloud based, secure and scalable,
-            web-based management solutions.
+            I am operating in the U.S., out of Comanche County Oklahoma.
+            Business is virtual. Before we get started on anything I make sure
+            that I understand your audience and business needs. From there we go 
+            through layout options and content choices to make your options
+            simpler.
           </p>
         </div>
         <div class="col-md-4 hover-shadow">
           <br /><br />
           <img src="../assets/families.png" alt="" />
           <h4 class="text-orange">
-            Families 〉
+            Building Partnerships With Small Businesses 〉
           </h4>
           <p class="content">
-            TITAN understands that happy parents contribute to a successful
-            program. Learn more about our 24-hour, web-based, real time, secure
-            access to accounts and the ability to manage multiple children’s
-            meal plans throughout a school district.
+            Not only do I want to build your presence online and brand you, I
+            want to ensure that your website stays healthy and keeps web traffic
+            coming in. As a regular maintenance I.T. guy, I can help keep your
+            SEO updated and follow traffic to see what keywords are being used,
+            related to your business.
           </p>
         </div>
       </div>
@@ -48,7 +53,8 @@
       <iframe
         width="100%"
         height="544"
-        src="https://www.youtube.com/embed/B2Vqitk-tVM"
+        src=""
+        title="Web Developer"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
@@ -59,12 +65,19 @@
       <hr class="bg-white" />
       <br /><br />
       <div class="container space text-start text-white">
-        <h1>Intuitive School Solutions</h1>
-        TITAN’s web-based school nutrition solutions make your operations
+        <h1>Intuitive Web Solutions</h1>
+        Steven’s web-based business coding solutions make your operations
         stronger, more effective, and efficient. We provide simple
         straight-forward, yet comprehensive management and communications tools
         with a revolutionary, all-inclusive subscription model. Budget-friendly,
         transparent pricing begins here.
+        <br /><br />
+        <a
+          href="mailto:stephenbrooks714@gmail.com"
+          class="btn text-white btn-outline-white btn-lg"
+          target="_blank"
+          >LEARN MORE</a
+        >
       </div>
     </div>
     <br />
@@ -79,24 +92,25 @@
         <div class="col-md-6">
           <div class="text-start">
             <h1 class="text-success">Testimonials</h1>
-            I was impressed with TITAN School Solutions because their up to date
-            technology was able to connect with our student data system which
-            helped save me time by not having to enter every student manually.
-            After a 5-minute conversation on the phone, they were able to
-            transfer all our information and have our new system up and ready to
-            run in 48 hours.
+            "I was impressed with Steven's Web Solutions because their up to
+            date technology was able to connect with our student data system
+            which helped save me time by not having to enter every student
+            manually. After a 5-minute conversation on the phone, they were able
+            to transfer all our information and have our new system up and ready
+            to run in 48 hours."
             <br /><br />
-            The one thing I liked was they were only a phone call away and they
+            "The one thing I liked was they were only a phone call away and they
             handled every situation quickly, efficiently, and with a great
             attitude. I found the experience to be pain free and quite
-            enjoyable. <br /><br />
-            I would recommend TITAN to any school that is looking for an updated
-            change that works for the whole Corporation. Jessica Murray, SNS
-            Director Nutrition Services—West Central School Coporation, Indiana.
+            enjoyable." <br /><br />
+            "I would recommend Steven to any business or student that is looking
+            for an updated change that works for the whole Corporation. Jessica
+            Murray, SNS Director Nutrition Services—West Central School
+            Coporation, Indiana."
             <br /><br />
             <span class="text-orange">
               <h5>Jessica Murray, SNS</h5>
-              Director Nutrition Services—West Central School Coporation,
+              Director Financial Strengths—West Central Retail Operation,
               Indiana
             </span>
             <br /><br />
@@ -111,7 +125,32 @@
           <br />
           <div class="container">
             <div class="row">
-              <img src="../assets/background.png" alt="" />
+              <div class="col-md">
+                <br /><br />
+                <img src="../assets/geizer.png" class="img-fluid" alt="" />
+              </div>
+              <div class="col-md">
+                <br /><br />
+                <img src="../assets/acemire.png" class="img-fluid" alt="" />
+              </div>
+              <div class="col-md">
+                <br /><br />
+                <img src="../assets/nelson.png" class="img-fluid" alt="" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md">
+                <br /><br />
+                <img src="../assets/key.png" class="img-fluid" alt="" />
+              </div>
+              <div class="col-md">
+                <br /><br />
+                <img src="../assets/decor.png" class="img-fluid" alt="" />
+              </div>
+              <div class="col-md">
+                <br /><br />
+                <img src="../assets/godsjotters.png" class="img-fluid" alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -122,9 +161,13 @@
         <div class="footer-text text-start">
           <h2>
             Upcoming <br />
-            Trade Shows <i class="fas trade-shows-icon fa-globe-americas"></i>
+            Start Dates <i class="fas trade-shows-icon fa-globe-americas"></i>
+            <br />
+            <span class="text-dates"
+              >June 1, 2021 - August 1, 2021 - November 1, 2021</span
+            >
           </h2>
-          <button class="btn">View Trade Shows</button>
+          <button class="btn">View Course Listings</button>
         </div>
       </div>
     </div>
@@ -137,12 +180,12 @@
                 Learn More
               </h2>
               <p>
-                The school nutrition industry is dynamic and always changing.
-                Please Please join our mailing list to receive timely industry
-                news and including chances to meet TITAN representatives at your
-                state’s nutrition association conference. We can also let you
-                know about informational webinars and open houses in your area.
-                Everyone wins with TITAN. Join us!
+                The information technology industry is dynamic and always
+                changing. Please Please join our mailing list to receive timely
+                industry news and including chances to get a resume review and a
+                moc interview prior to interviews. We can also let you know
+                about informational webinars and open houses in your area.
+                Everyone wins with my solutions. Join us!
               </p>
             </div>
           </div>
@@ -188,22 +231,8 @@
                 <label class="form-label" for="form4Example3">Message</label>
               </div>
 
-              <!-- Checkbox -->
-              <div class="form-check d-flex justify-content-center mb-4">
-                <input
-                  class="form-check-input me-2"
-                  type="checkbox"
-                  value=""
-                  id="form4Example4"
-                  checked
-                />
-                <label class="form-check-label" for="form4Example4">
-                  Send me a copy of this message
-                </label>
-              </div>
-
               <!-- Submit button -->
-              <button type="submit" class="btn btn-primary btn-block mb-4">
+              <button type="submit" class="btn btn-danger btn-block mb-4">
                 Send
               </button>
             </form>
@@ -229,6 +258,9 @@ export default class HelloWorld extends Vue {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+.icon {
+  font-size: 7em;
+}
 h3 {
   margin: 40px 0 0;
 }
@@ -274,6 +306,9 @@ a {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+.text-dates {
+  font-size: 21px !important;
 }
 .footer-bg {
   background-color: teal;

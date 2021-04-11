@@ -5,7 +5,7 @@
       <!-- Container wrapper -->
       <div class="container-fluid">
         <!-- Navbar brand -->
-        <a class="navbar-brand" href="#">Titan Schools</a>
+        <a class="navbar-brand" href="#">CWD</a>
 
         <!-- Toggle button -->
         <button
@@ -25,13 +25,13 @@
           <!-- Left links -->
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <router-link class="nav-link" to="/">Home</router-link>
+              <router-link class="nav-link active" to="/">Home</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/">About</router-link>
+              <router-link class="nav-link active" to="/about">About</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/">Contact</router-link>
+              <router-link class="nav-link active" to="/contact">Contact</router-link>
             </li>
             <!-- Navbar dropdown -->
             <li class="nav-item dropdown">
@@ -48,49 +48,41 @@
               <!-- Dropdown menu -->
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <router-link class="dropdown-item" to="/"
+                  <router-link class="dropdown-item active" to="/curriculum"
                     >Curriculum</router-link
                   >
                 </li>
                 <li>
-                  <router-link class="dropdown-item" to="/"
+                  <router-link class="dropdown-item active" to="/enroll"
                     >Enroll Classes</router-link
                   >
                 </li>
                 <li>
-                  <router-link class="dropdown-item" to="/"
+                  <router-link class="dropdown-item active" to="/accounts"
                     >Register/Login</router-link
                   >
                 </li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <router-link class="dropdown-item" to="/"
+                  <router-link class="dropdown-item active" to="/support"
                     >Support</router-link
                   >
                 </li>
               </ul>
             </li>
             <li>
-              <router-link class="dropdown-item" to="/">Graduation</router-link>
+              <router-link class="dropdown-item active" to="/graduation"
+                >Certifications</router-link
+              >
             </li>
           </ul>
           <!-- Left links -->
 
           <!-- Search form -->
           <form class="d-flex input-group w-auto">
-            <input
-              type="search"
-              class="form-control"
-              placeholder="Type query"
-              aria-label="Search"
-            />
-            <button
-              class="btn btn-outline-primary"
-              type="button"
-              data-mdb-ripple-color="dark"
-            >
-              Search
-            </button>
+            <a href="mailto:stephenbrooks714@gmail.com">
+              SUPPORT / HELP
+            </a>
           </form>
         </div>
         <!-- Collapsible wrapper -->
@@ -120,7 +112,7 @@
     color: #2c3e50;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: rgb(245, 7, 7);
     }
   }
 }
